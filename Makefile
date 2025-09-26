@@ -24,5 +24,4 @@ endif
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 
-# ✅ 避免 Logos 產生的 VLA 報錯
 ADDITIONAL_CFLAGS += -Wno-vla-cxx-extension -Wno-error
